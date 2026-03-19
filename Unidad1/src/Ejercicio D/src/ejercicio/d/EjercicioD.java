@@ -2,8 +2,8 @@ package ejercicio.d;
 
 public class EjercicioD {
     public static void main(String[] args) {
-        final int A = 5;   //multiplicar a
-        final int C = 3;   //incremento c
+        final int A = 7;   //multiplicar a
+        final int C = 2;   //incremento c
         final int M = 16;  //modulo m
         int x = 4;         //semilla X0
         

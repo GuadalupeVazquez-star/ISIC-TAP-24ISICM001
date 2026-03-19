@@ -10,9 +10,9 @@ public class EjercicioC extends JFrame{
         setTitle("Mi tercera ventana - TAP");
         setSize(400,300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLayout(new GridLayout(3,2,5,5));
+        setLayout(new GridLayout(2,3));
         for(int i=1 ; i<=6 ; i++){
-            add(new JButton ("Boton" + i));
+            add(new JButton ("LUGAR" + i));
         }
         
         setVisible(true);

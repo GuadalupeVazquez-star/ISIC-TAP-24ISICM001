@@ -7,8 +7,8 @@ import javax.swing.JFrame;
 public class EjercicioA extends JFrame{
     
     public EjercicioA(){
-        setTitle("MI 1ERA VENTANA");
-        setSize(600,400);
+        setTitle("_CAMBIO EN EL CODIGO TOPICOS_");
+        setSize(700,600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         setLocationRelativeTo(null);

@@ -18,16 +18,16 @@ public class EjercicioB extends JFrame {
         setLayout(new BorderLayout());
         
         JPanel panelNorte=new JPanel();
-        panelNorte.setBackground(Color.red);
-        panelNorte.add(new JLabel("Panel Norte"));
+        panelNorte.setBackground(Color.MAGENTA);
+        panelNorte.add(new JLabel("PRIMER LUGAR"));
         
         JPanel panelSur=new JPanel();
-        panelSur.setBackground(Color.BLUE);
-        panelSur.add(new JLabel("Panel Sur"));
+        panelSur.setBackground(Color.ORANGE);
+        panelSur.add(new JLabel("TERCER LUGAR"));
         
         JPanel panelCentral=new JPanel();
-        panelCentral.setBackground(Color.WHITE);
-        panelCentral.add(new JLabel("Panel Central"));
+        panelCentral.setBackground(Color.GREEN);
+        panelCentral.add(new JLabel("SEGUNDO LUGAR"));
         
         
         add(panelNorte,BorderLayout.NORTH);
